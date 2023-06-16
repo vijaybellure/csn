@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+a:hover{
+    color: #0070AD;
+}
+ul{
+    display: flex;
+    list-style: none;
+    /* padding-left: 100px; */
+    
+}
+p{
+    /* padding-left: 10; */
+}
+li{
+    padding:  20px 20px;
+}
+li:hover{
+    background-color:#0070ad1a;
+}
+.Navbar2{
+    margin-top: 0px;
+    padding-left: 100px;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+

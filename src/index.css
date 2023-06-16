@@ -1,13 +1,243 @@
-body {
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: "Ubuntu";
+}
+.heading{
+  overflow: hidden;
+  background-color: #0070AD;
+  padding: 10px;
+  border: 2px solid rgb(26, 10, 247);
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* #h3{
+  text-align:end;
+} */
+
+.textHeading{
+  color: white;
+  padding-left: 10px;
+}
+
+.LoginPage{
+  border: 3px solid #f1f1f1;
+  padding-top: 100px;
+  margin: auto;
+  margin-top: 50px;
+  width: 50%;
+  border: 1px solid #0070AD ;
+  
+}
+.LoginPage:hover{
+  background-color:rgba(0, 0, 0, 0.047);
+}
+
+input[type="email"]{
+  width: 200px;
+}
+
+
+
+
+
+
+
+/* Bordered form */
+
+
+/* Full-width inputs */
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+label{
+  font-family: "Ubuntu";
+  color: #0070AD;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #0070AD;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  margin-left: 3px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+
+
+/* Avatar image */
+
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  font-family: "Ubuntu";
+
+}
+.textHeading{
+  display: flex;
+}
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+.loginImage{
+  padding-left: 230px;
+}
+
+.myfriends {
+  display: inline;
+  border: 1px solid blue;
+  border-radius: 5px;
+  width: 30%;
+  margin-right: 20px;
+  height: 100%;
+  float: right;
+  /* margin-block-start: -795px; */
+}
+button{
+  border-radius: 3px;
+}
+.groups1{
+  display:inline;
+  border:1px solid blue;
+  width: 30%;
+  margin-right: 20px;
+  height: 100%;
+  float: right;
+  /* margin-block-start: -365px; */
+}
+.ViewFriends{
+  width: 150px;
+  /* height: 10px; */
+  margin: 10px;
+}
+
+#wall{
+  background-color: #0070AD;
+  color: white;
+  height: 35px;
+  padding: 6px;
+
+  /* margin: 2px; */
+}
+.friedlist-photos{
+  width:30%;
+  height: 30%;
+  margin: 4px;
+}
+.friedlist-photos:hover{
+  border: 1px solid black;
+}
+.photos{
+  margin-top: 20px;
+}
+.GroupPhoto{
+  opacity: 0.2;
+  width:100px;
+  height: 70px;
+}
+.groupsPhoto{
+  margin:5px;
+  padding: 3px;
+  align-items: center;
+}
+.group1 {
+    height: 30%;
+    border: 1px solid blue;
+    margin: 5px;
+}
+.group2{
+    height: 30%;
+    border: 1px solid blue;
+    margin: 5px;
+}
+.group3 {
+    height: 30%;
+    border: 1px solid blue;
+    margin: 5px;
+}
+.groupName1{
+  display: inline;
+  color: blue;
+  float:right;
+  margin-top: 10px; 
+  margin-right: 65px;
+}
+.groupName2{
+  display: inline;
+  color: blue;
+  float:right;
+  margin-right: 90px;
+  margin-top: 10px;
+
+}
+.groupName3{
+  display: inline;
+  color: blue;
+  float:right;
+  margin-right: 97px;
+  margin-top: 10px;
+
+}
+.descriptionGroup1{
+  display: inline;
+  width: 115px;
+  font-size: 15px;
+  float: right;
+  margin-right: 60px;
+  
+}
+.descriptionGroup2{
+  display: inline;
+  width: 115px;
+  font-size: 15px;
+  float: right;
+  margin-right: 60px;
+  
+}
+.descriptionGroup3{
+  display: inline;
+  width: 115px;
+  font-size: 15px;
+  float: right;
+  margin-right: 60px;
+  
 }

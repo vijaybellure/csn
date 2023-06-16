@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.groupsHeading{
+    font-size: 2rem;
+}
+.groups{
+    width:65%;
+    border: 1px solid black;
+    display: inline-block;
+    height: 100%;
+    margin:10px
+}
+p{
+    display: inline;
+}
+.IconName{
+    color: blue;
+    float:right;
+    margin-right: 400px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.IconDescription{
+    float: right;
+    margin-right: 370px;
+    margin-block-start: -40px;
+}
+.groupIcon1{
+    border:1px solid black;
+    width: 650px;
+    margin: 20px;
+}
+.groupIcon1:hover{
+    background-color: rgba(0, 255, 255, 0.089);
+}
+.adjustGroups{
+    margin-block-end: 550px;
+    margin-block-start: -652px;
+}

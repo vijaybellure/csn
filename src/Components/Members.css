@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.members{
+    border: 1px solid blue;
+    display: inline-block;
+    width:65%;
+    height: 100%;
+    margin: 10px;
+}
+.MembersHeading{
+    font-size: 2rem;
+
+}
+.profiles{
+    /* border: 2px solid black; */
+    width:100px;
+    text-align: center;
+}
+.profileButtons{
+    display: inline;
+    float: right;
+    margin-block-start: -100px;
+    margin-right: 80px;
+    width:600px
+    
+}
+.addFriend{
+    margin: 5px 10px;
+    background-color: green;
+}
+.sendMessage
+{
+    margin: 5px 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.viewProfile{
+    margin: 5px 10px;
+    
+}
+.adjustMembers{
+    margin-block-end: 550px;
+    margin-block-start: -810px;
+  }

@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.photos1{
+    width: 65%;
+    height: 100%;
+    border: 1px solid black;
+    margin: 10px;
+}
+.Pictures{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 1px solid black;
+    opacity: 1.0;
+    padding: 1px;
+}
+.adjustPhotos{
+    margin-block-end: 550px;
+    margin-block-start: -315px;
+}
